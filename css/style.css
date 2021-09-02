@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: #fafafa;
+  }
+  
+  .container {
+    max-width: 324px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C7C7C7;
+    background: #ffffff;
+  }
+  
+  .header__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__logo {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .header__nav__block {
+    width: 20px;
+    height: 20px;
+    background: url("../img/burger_menu.svg") no-repeat center;
+  }
+  
+  .main__nav {
+    padding-top: 24px;
+    padding-bottom: 8px;
+  }
+  
+  .main__nav__link {
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+  }
+  
+  .back {
+    padding-bottom: 32px;
+    display: flex;
+  }
+  
+  .back__button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #C7C7C7;
+    background: transparent;
+    margin-right: 12px;
+    background: url("../img/back.png") no-repeat center;
+  }
+  
+  .back__text {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .access__title {
+    padding-bottom: 40px;
+  }
+  
+  .access__block {
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    border-radius: 20px;
+    border: 1px solid #C7C7C7;
+    max-width: 344px;
+    width: 100%;
+    background: #ffffff;
+  }
+  
+  .access__settings {
+    max-width: 305px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .access__settings__cards {
+    margin-top: 40px;
+  }
+  
+  .access__settings__title {
+    margin-bottom: 16px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #1C1E20;
+    font-weight: 300;
+  }
+  
+  .access__settings__card {
+    display: flex;
+    margin-bottom: 24px;
+  }
+  
+  .access__settings__info {
+    margin-left: 8px;
+  }
+  
+  .access__settings__info__title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #1C1E20;
+  }
+  
+  .access__settings__info__text {
+    font-size: 15px;
+    color: #818181;
+  }
+  
+  .access__content {
+    font-size: 20px;
+  }
+  
+  .access__about {
+    font-size: 15px;
+    color: #818181;
+    display: flex;
+    padding-top: 12px;
+  }
+ 
